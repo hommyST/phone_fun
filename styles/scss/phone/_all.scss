@@ -1,0 +1,12 @@
+[class^=phone-input] {
+  outline: none;
+  border: 0;
+  border-radius: 0.3em;
+  background-color: transparentize($clr-accent, 0.8);
+  padding: 0.3em 0.6em;
+  min-width: 257px;
+
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: $clr-text-light;
+}

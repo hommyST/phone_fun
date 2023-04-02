@@ -1,0 +1,366 @@
+[class^=phone-input] {
+  outline: none;
+  border: 0;
+  border-radius: 0.3em;
+  background-color: rgba(198, 83, 198, 0.2);
+  padding: 0.3em 0.6em;
+  min-width: 257px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: hsl(0deg, 0%, 95%);
+}
+
+#phone-normal:valid {
+  outline: 2px solid #4CAF50;
+}
+#phone-normal:invalid {
+  outline: 2px solid #F44336;
+  animation: shake 100ms ease-in alternate;
+  animation-iteration-count: 3;
+}
+@keyframes shake {
+  0% {
+    margin-left: -0.3rem;
+  }
+  100% {
+    margin-left: 0.3rem;
+  }
+}
+
+.phone-increase--control button.active {
+  box-shadow: inset 0 0 10px black;
+}
+
+#phone-increase:valid {
+  outline: 2px solid #4CAF50;
+}
+#phone-increase:invalid {
+  outline: 2px solid #F44336;
+  animation: shake 100ms ease-in alternate;
+  animation-iteration-count: 3;
+}
+@keyframes shake {
+  0% {
+    margin-left: -0.3rem;
+  }
+  100% {
+    margin-left: 0.3rem;
+  }
+}
+
+.phone-input--section {
+  min-width: 0;
+  width: 1.6rem;
+  text-align: center;
+  padding: 0.125em 0.3em;
+}
+.phone-input--section.current {
+  background-color: rgba(198, 83, 198, 0.55);
+}
+.phone-input--section:invalid {
+  outline: 2px solid #F44336;
+}
+
+.ma-1 {
+  margin: 6px;
+}
+
+.mt-1 {
+  margin-top: 6px;
+}
+
+.mr-1 {
+  margin-right: 6px;
+}
+
+.mb-1 {
+  margin-bottom: 6px;
+}
+
+.ml-1 {
+  margin-left: 6px;
+}
+
+.my-1 {
+  margin-block: 6px;
+}
+
+.mx-1 {
+  margin-inline: 6px;
+}
+
+.ma-2 {
+  margin: 12px;
+}
+
+.mt-2 {
+  margin-top: 12px;
+}
+
+.mr-2 {
+  margin-right: 12px;
+}
+
+.mb-2 {
+  margin-bottom: 12px;
+}
+
+.ml-2 {
+  margin-left: 12px;
+}
+
+.my-2 {
+  margin-block: 12px;
+}
+
+.mx-2 {
+  margin-inline: 12px;
+}
+
+.ma-3 {
+  margin: 18px;
+}
+
+.mt-3 {
+  margin-top: 18px;
+}
+
+.mr-3 {
+  margin-right: 18px;
+}
+
+.mb-3 {
+  margin-bottom: 18px;
+}
+
+.ml-3 {
+  margin-left: 18px;
+}
+
+.my-3 {
+  margin-block: 18px;
+}
+
+.mx-3 {
+  margin-inline: 18px;
+}
+
+.ma-4 {
+  margin: 24px;
+}
+
+.mt-4 {
+  margin-top: 24px;
+}
+
+.mr-4 {
+  margin-right: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 24px;
+}
+
+.ml-4 {
+  margin-left: 24px;
+}
+
+.my-4 {
+  margin-block: 24px;
+}
+
+.mx-4 {
+  margin-inline: 24px;
+}
+
+.ma-5 {
+  margin: 30px;
+}
+
+.mt-5 {
+  margin-top: 30px;
+}
+
+.mr-5 {
+  margin-right: 30px;
+}
+
+.mb-5 {
+  margin-bottom: 30px;
+}
+
+.ml-5 {
+  margin-left: 30px;
+}
+
+.my-5 {
+  margin-block: 30px;
+}
+
+.mx-5 {
+  margin-inline: 30px;
+}
+
+.ma-6 {
+  margin: 36px;
+}
+
+.mt-6 {
+  margin-top: 36px;
+}
+
+.mr-6 {
+  margin-right: 36px;
+}
+
+.mb-6 {
+  margin-bottom: 36px;
+}
+
+.ml-6 {
+  margin-left: 36px;
+}
+
+.my-6 {
+  margin-block: 36px;
+}
+
+.mx-6 {
+  margin-inline: 36px;
+}
+
+.ma-7 {
+  margin: 42px;
+}
+
+.mt-7 {
+  margin-top: 42px;
+}
+
+.mr-7 {
+  margin-right: 42px;
+}
+
+.mb-7 {
+  margin-bottom: 42px;
+}
+
+.ml-7 {
+  margin-left: 42px;
+}
+
+.my-7 {
+  margin-block: 42px;
+}
+
+.mx-7 {
+  margin-inline: 42px;
+}
+
+.ma-8 {
+  margin: 48px;
+}
+
+.mt-8 {
+  margin-top: 48px;
+}
+
+.mr-8 {
+  margin-right: 48px;
+}
+
+.mb-8 {
+  margin-bottom: 48px;
+}
+
+.ml-8 {
+  margin-left: 48px;
+}
+
+.my-8 {
+  margin-block: 48px;
+}
+
+.mx-8 {
+  margin-inline: 48px;
+}
+
+.ma-9 {
+  margin: 54px;
+}
+
+.mt-9 {
+  margin-top: 54px;
+}
+
+.mr-9 {
+  margin-right: 54px;
+}
+
+.mb-9 {
+  margin-bottom: 54px;
+}
+
+.ml-9 {
+  margin-left: 54px;
+}
+
+.my-9 {
+  margin-block: 54px;
+}
+
+.mx-9 {
+  margin-inline: 54px;
+}
+
+.ma-10 {
+  margin: 60px;
+}
+
+.mt-10 {
+  margin-top: 60px;
+}
+
+.mr-10 {
+  margin-right: 60px;
+}
+
+.mb-10 {
+  margin-bottom: 60px;
+}
+
+.ml-10 {
+  margin-left: 60px;
+}
+
+.my-10 {
+  margin-block: 60px;
+}
+
+.mx-10 {
+  margin-inline: 60px;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: hsl(0deg, 0%, 95%);
+  font-weight: bold;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.2em;
+  background-color: hsl(300deg, 50%, 55%);
+  transition: background-color 100ms ease-in;
+}
+button:hover {
+  background-color: #cc66cc;
+}
+button:active {
+  background-color: #bf40bf;
+}
+button:not(:last-of-type) {
+  margin-right: 0.4rem;
+}
+
+/*# sourceMappingURL=styleSass.css.map */

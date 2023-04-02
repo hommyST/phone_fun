@@ -1,0 +1,27 @@
+.phone-increase--control button {
+  &.active {
+    box-shadow: inset 0 0 10px black;
+  }
+}
+
+#phone-increase {
+
+  &:valid {
+    outline: 2px solid $clr-positive;
+  }
+  &:invalid {
+    outline: 2px solid $clr-negative;
+    animation: shake 100ms ease-in alternate;
+    animation-iteration-count: 3;
+  }
+
+  @keyframes shake {
+    $offset: 0.3rem;
+    0% {
+      margin-left: -$offset;
+    }
+    100% {
+      margin-left: $offset;
+    }
+  }
+}

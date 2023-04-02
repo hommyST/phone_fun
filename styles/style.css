@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #263238;
+  color: #FAFAFA;
+}
+
+
+main {
+  width: 80vw;
+  margin: 0 auto;
+  padding-block: 1rem;
+
+  border: 1px solid hsla(120, 50%, 55%, 1);
+  border-radius: 0.2rem;
+  box-shadow: 0 0 10px hsla(120, 50%, 55%, 0.5);
+}
+
+section {
+  padding: 1rem .8rem;
+  box-shadow: inset 0 0 10px hsla(120, 50%, 55%, 0.647);
+  margin-inline: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+}
+
+
+
+/* UTILS */
+.text-center {
+  text-align: center;
+}

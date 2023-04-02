@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styleSass.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/console.css">
+  <script src="./scripts/log.js" defer></script>
+  <script src="./scripts/main.js" type="module" defer></script>
+  <title>phone_fun</title>
+</head>
+<body>
+  <h1 class="text-center">Hello</h1>
+  <main>
+    <section>
+      <span>Введите номер телефона:</span>
+      <div class="mt-2">
+        <input
+          type="text"
+          id="phone-normal"
+          class="phone-input"
+          value="79000000000"
+          pattern="\d{11}"
+        >
+      </div>
+    </section>
+    <section>
+      <span>Введите номер телефона:</span>
+      <div class="my-2">
+        <input
+          type="number"
+          id="phone-increase"
+          class="phone-input"
+          min="70000000000"
+          max="80000000000"
+          value="79000000000"
+          step="1"
+          pattern="\d{11}"
+        >
+      </div>
+      <div class="phone-increase--control">
+        <button class="active" id="step-1" data-step="1">x1</button>
+        <button id="step-10" data-step="10">x10</button>
+        <button id="step-100" data-step="100">x1n2</button>
+        <button id="step-1000" data-step="1000">x1n3</button>
+        <button id="step-10000" data-step="10000">x1n4</button>
+        <button id="step-100000" data-step="100000">x1n5</button>
+        <button id="step-1000000" data-step="1000000">x1n6</button>
+        <button id="step-10000000" data-step="10000000">x1n7</button>
+      </div>
+    </section>
+    <section>
+      <span>Введите номер телефона:</span>
+      <div class="phone-section-wrap my-2">
+        <input
+          type="text"
+          id="phone-section-1"
+          class="phone-input--section"
+          value="7"
+          pattern="7"
+          disabled
+        > (
+        <input
+          type="text"
+          id="phone-section-2"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+        <input
+          type="text"
+          id="phone-section-3"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+        <input
+          type="text"
+          id="phone-section-4"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >)&nbsp;
+        <input
+          type="text"
+          id="phone-section-5"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+        <input
+          type="text"
+          id="phone-section-6"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+        <input
+          type="text"
+          id="phone-section-7"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >&nbsp;
+        <input
+          type="text"
+          id="phone-section-8"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+        <input
+          type="text"
+          id="phone-section-9"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        > -
+        <input
+          type="text"
+          id="phone-section-10"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+        <input
+          type="text"
+          id="phone-section-11"
+          class="phone-input--section"
+          pattern="\d"
+          disabled
+        >
+      </div>
+      <div class="phone-section--control">
+        <button id="next">след</button>
+        <button id="prev">пред</button>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

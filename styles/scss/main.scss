@@ -1,0 +1,55 @@
+@import '_variables.scss';
+@import './phone/all';
+@import './phone/normal';
+@import './phone/increase';
+@import './phone/section';
+
+$margin-offset: 6px;
+@for $i from 1 through 10 {
+  .ma-#{$i} {
+    margin: $i * $margin-offset;
+  }
+  .mt-#{$i} {
+    margin-top: $i * $margin-offset;
+  }
+  .mr-#{$i} {
+    margin-right: $i * $margin-offset;
+  }
+  .mb-#{$i} {
+    margin-bottom: $i * $margin-offset;
+  }
+  .ml-#{$i} {
+    margin-left: $i * $margin-offset;
+  }
+  .my-#{$i} {
+    margin-block: $i * $margin-offset;
+  }
+  .mx-#{$i} {
+    margin-inline: $i * $margin-offset;
+  }
+}
+
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $clr-text-light;
+  font-weight: bold;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.2em;
+  background-color: $clr-accent;
+  transition: background-color 100ms ease-in;
+
+  &:hover {
+    background-color: lighten($clr-accent, 5);
+  }
+  &:active {
+    background-color: darken($clr-accent, 5);
+  }
+
+  &:not(:last-of-type) {
+    margin-right: 0.4rem;
+  }
+}
