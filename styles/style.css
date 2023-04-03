@@ -22,7 +22,8 @@ main {
 
 section {
   padding: 1rem .8rem;
-  box-shadow: inset 0 0 10px hsla(120, 50%, 55%, 0.647);
+  /* box-shadow: inset 0 0 100px hsla(120, 50%, 55%, 0.3); */
+  background: linear-gradient(150deg, hsla(120, 50%, 55%, 0.2), hsla(313, 50%, 55%, 0.2));
   margin-inline: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 0.4rem;

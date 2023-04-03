@@ -1,17 +1,17 @@
-let counetLogs = 0
+let counterLogs = 0
 
 function log(variable) {
   let out;
   if (document.querySelector('.console-out')) out = document.querySelector('#console-out')
   else out = createDom()
   const type = typeof variable
-  if (counetLogs <= 3) {
+  if (counterLogs <= 3) {
     out.innerHTML += '<br>'
     out.innerHTML += type + ': ' + JSON.stringify(variable, null, 2)
-    counetLogs++
+    counterLogs++
   } else {
     out.innerHTML = type + ': ' + JSON.stringify(variable, null, 2)
-    counetLogs = 0
+    counterLogs = 0
   }
 
   // out.innerHTML += ' ---- ' + counetLogs //DEBUG only
